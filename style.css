@@ -1,0 +1,27 @@
+.repo-stats {
+  text-align: right;
+}
+
+.user-stats {
+  font-size: 1.2rem;
+}
+
+.list-group-item {
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .repo-title,
+  .repo-stats {
+    text-align: center;
+  }
+  .repo-title {
+    margin-bottom: 10px;
+  }
+  .list-group-item {
+    padding: 12px 0;
+  }
+  .user-stats {
+    text-align: center;
+  }
+}
